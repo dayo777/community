@@ -1,0 +1,64 @@
+/* modules/community/src/community.css */
+#community-feed {
+    padding: 15px;
+    font-family: sans-serif;
+  }
+  
+  #community-feed h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .post {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .username {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .post-content {
+    margin-bottom: 10px;
+  }
+  
+  .post-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  .post-actions button {
+    background: none;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .post-actions button:hover {
+    color: #007bff;
+  }
+  
+  .loading-indicator {
+    text-align: center;
+    padding: 10px;
+    color: #777;
+  }
